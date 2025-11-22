@@ -1,0 +1,10 @@
+footer{
+    width: 1000px;
+    height: 230px;
+    gap: 2em;
+    bottom: 0;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}

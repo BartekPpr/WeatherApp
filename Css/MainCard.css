@@ -1,0 +1,70 @@
+.mainCard{
+    background-color: #00d2ff;
+    max-height: 700px;
+    max-width: 400px;
+    border-radius: 10px;
+    justify-items: center;
+    color: #242424;
+    display: grid;
+    overflow: visible;
+}
+.searchBar{
+    height: 3rem;
+    min-width: 2.5em;
+    border-radius: 30px;
+    font-size: large;
+    border: 2px solid white;
+    padding-left: 15px;
+}
+.searchIcon{
+    width: 1.4rem;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid blueviolet;
+    margin-left: 10px;
+}
+.mainCard h1{
+    font-size: 3em;
+    margin: 0;
+    font-style: italic;
+}
+.searchComponents{
+  display: flex;          
+  align-items: center;   
+  gap: 10px;            
+  margin: 10px;
+}
+.weatherInfo{
+    display: flex;
+    gap: 1.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+.weatherIcon{
+    height: 250px;
+}
+.infoImg{
+    width: 60px;
+}
+.mainCard button{
+    border: none;
+    margin-left: -45px;
+    background: transparent;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline: none;
+}
+
+.favorite:hover {
+  transform: scale(1.5);
+}
+.favorite:active {
+  color: #ff1381;
+}
